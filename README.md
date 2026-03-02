@@ -892,7 +892,10 @@ The AWS Deployment Architecture is fully comprised of the following layers:
 The user accesses the Travel Memory application through a web browser using the domain name https://www.cloudexpert.store
 
 **Protocol: HTTPS Port:** 443 <br>
-**Role:** Initiates requests to view the application and interact with backend APIs. All user requests are encrypted using HTTPS to ensure secure communication.
+
+**Role:** 
+- Initiates requests to view the application and interact with backend APIs.
+- All user requests are encrypted using HTTPS to ensure secure communication.
 
 ---
 
@@ -908,10 +911,10 @@ Cloudflare acts as the DNS provider and security gateway for the application.
 - The frontend target group contains multiple EC2 instances hosting the React application. 
 
 **Configuration:**
--**Protocol:** HTTP 
--**Port:** 80 
--**Health Check Path:** / 
--**The load balancer** continuously monitors the health of frontend instances and routes traffic only to healthy targets.
+- **Protocol:** HTTP 
+- **Port:** 80 
+- **Health Check Path:** / 
+- **The load balancer** continuously monitors the health of frontend instances and routes traffic only to healthy targets.
 
 ---
 
