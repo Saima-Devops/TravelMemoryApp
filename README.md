@@ -15,7 +15,7 @@ The Travel Memory application is a full-stack MERN application that allows users
 - Scale using Launch Templates and Auto Scaling Groups
 - Attach an Application Load Balancer
 - Connect a custom domain via Cloudflare
-<img width="798" height="162" alt="Arch-2" src="https://github.com/user-attachments/assets/fa47c4c9-9659-46d8-ace0-66c9a9c9e3f6" />
+
 <img width="712" height="681" alt="Travel_Memory_Blog drawio" src="https://github.com/user-attachments/assets/f0133fbe-02f8-4db4-91ba-9680769e344b" />
 
 ## Tech Stack
