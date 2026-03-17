@@ -882,7 +882,7 @@ Travel Memory application is now:<br>
 
 ---
 
-# Summary (ARCHITECTURE FLOW)
+# Summary
 
 User requests are routed through Cloudflare DNS and secured via HTTPS. Traffic is forwarded to an Application Load Balancer, which distributes requests across multiple EC2 instances managed by an Auto Scaling Group. Each EC2 instance hosts the MERN stack application using Nginx as a reverse proxy. The backend securely connects to MongoDB Atlas for data persistence.
 
